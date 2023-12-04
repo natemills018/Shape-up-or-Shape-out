@@ -1,0 +1,40 @@
+#inputcontainer {
+    
+    /* padding: 3em;
+    margin: 2em; */
+    
+}
+
+#inputs {
+
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* justify-content: center;
+    align-items: center; */
+    border: 10px double black;
+    
+}
+
+#canvas {
+    
+}
+
+#squareButton {
+    background-color: blanchedalmond;
+
+    /* margin: 3em */
+}
+
+.h1class {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#rectangleinput1 {
+    /* margin: 10px; */
+}
+
+#rectangleinput2 {
+    /* margin: 10px; */
+}
