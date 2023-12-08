@@ -5,6 +5,12 @@
     
 }
 
+#canvasContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #inputs {
 
     /* display: flex;
@@ -15,14 +21,40 @@
     
 }
 
-#canvas {
+#shapeCanvas {
+    height: 600px;
+    width: 600px;
+    background-color: bisque;
+    position: relative;
+    margin: 1em;
+    border-radius: 1em;
     
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; */
+}
+
+#sidePanel{
+    height: 300px;
+    width: 150px;
+    background-color: azure;
+    position: absolute;
+}
+
+#canvas {
+    position: relative;
 }
 
 #squareButton {
     background-color: blanchedalmond;
 
     /* margin: 3em */
+}
+
+.Shape {
+    margin: 1em;
+    position: absolute;
 }
 
 .h1class {

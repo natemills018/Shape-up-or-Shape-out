@@ -13,14 +13,14 @@
 
 <body class="bg-dark-subtle">
 
-    <div id="canvas">
+    <div id="canvas" class="container">
         <h1 class="h1class">Add a Shape!</h1>
 
-        <div id="inputs" class="container"> 
+        <div id="inputs" class="container">
 
 
             <div id="inputcontainer" class="row">
-                <button class="col-lg-1 m-1" id="squareButton">Add a Rectangle</button>
+                <button class="col-lg-2 m-2" id="rectangleButton">Add a Rectangle</button>
                 <div class="col-lg-3 m-3">
                     <input type="text" id="rectangleinput1" placeholder="Width">
                 </div>
@@ -30,35 +30,55 @@
             </div>
 
             <div id="inputcontainer2" class="row">
-                <button class="col-lg-1 m-1" id="squareButton">Add a Square!</button>
+                <button class="col-lg-2 m-2" id="squareButton">Add a Square!</button>
                 <div class="col-lg-3 m-3">
-                    <input type="text" id="rectangleinput1" placeholder="Width">
-                </div>
-                <div class="col-lg-3 m-3">
-                    <input type="text" id="rectangleinput2" placeholder="Height">
+                    <input type="text" id="sideLength" placeholder="Side Length">
                 </div>
             </div>
 
             <div id="inputcontainer3" class="row">
-                <button class="col-lg-1 m-1" id="squareButton">Add a Circle</button>
+                <button class="col-lg-2 m-2" id="circleButton">Add a Circle</button>
                 <div class="col-lg-3 m-3">
-                    <input type="text" id="rectangleinput1" placeholder="Width">
-                </div>
-                <div class="col-lg-3 m-3">
-                    <input type="text" id="rectangleinput2" placeholder="Height">
+                    <input type="text" id="radius" placeholder="Radius">
                 </div>
             </div>
 
             <div id="inputcontainer4" class="row">
-                <button class="col-lg-1 m-1" id="squareButton">Add an Isosceles Right Triangle!</button>
+                <button class="col-lg-2 m-2" id="triangleButton">Add an Isosceles Right Triangle!</button>
                 <div class="col-lg-3 m-3">
-                    <input type="text" id="rectangleinput1" placeholder="Width">
-                </div>
-                <div class="col-lg-3 m-3">
-                    <input type="text" id="rectangleinput2" placeholder="Height">
+                    <input type="text" id="triangleHeight" placeholder="Height">
                 </div>
             </div>
+
         </div>
+
+
+        <div id="sidePanelContainer">
+
+            <div id="sidePanel" class="col-lg-3 p-3 mt-3">
+                
+                <div id="titleSidepanel">This is the title on the side panel</div>
+                <div id="shapeName"></div>
+                <div id="Width"></div>
+                <div id="Height"></div>
+                <div id="radius"></div>
+                <div class="calculatedArea">Here's where we will input the result of the calculation</div>
+            </div>
+
+            
+
+        </div>
+
+
+
+        <div id="canvasContainer" class="container">
+            <div class="row">
+                <div id="shapeCanvas" class="col-lg-3"></div>
+            </div>
+
+        </div>
+
+
 
 
 
