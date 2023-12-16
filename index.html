@@ -27,6 +27,7 @@
                 <div class="col-lg-3 m-3">
                     <input type="text" id="rectangleinput2" placeholder="Height">
                 </div>
+                <button class="col-lg-2 m-2" id="resetButton">Reset</button>
             </div>
 
             <div id="inputcontainer2" class="row">
@@ -56,16 +57,35 @@
         <div id="sidePanelContainer">
 
             <div id="sidePanel" class="col-lg-3 p-3 mt-3">
-                
-                <div id="titleSidepanel">This is the title on the side panel</div>
-                <div id="shapeName"></div>
-                <div id="Width"></div>
-                <div id="Height"></div>
-                <div id="radius"></div>
-                <div class="calculatedArea">Here's where we will input the result of the calculation</div>
+
+                <ul id="shapeinformationList" class="list-group list-group-flush">
+
+                    <li id="nameListItem" class="list-group-item">
+                        <span id="nameLabelSpan" class="shape-information-label">Name</span>
+                        <span id="nameValueSpan" class="shape-information-value"></span>
+                    </li>
+                    <li id="heightListItem" class="list-group-item">
+                        <span id="heightLabelSpan" class="shape-information-label">Height</span>
+                        <span id="heightValueSpan" class="shape-information-label"></span>
+                    </li>
+                    <li id="widthListItem" class="list-group-item">
+                        <span id="widthLabelSpan" class="shape-information-label">Width</span>
+                        <span id="widthValueSpan" class="shape-information-label"></span>
+                    </li>
+                    <li id="areaListItem" class="list-group-item">
+                        <span id="areaLabelSpan" class="shape-information-label">Area</span>
+                        <span id="areaValueSpan" class="shape-information-label"></span>
+                    </li>
+                    <li id="perimeterListItem" class="list-group-item">
+                        <span id="perimeterLabelSpan" class="shape-information-label">Perimeter</span>
+                        <span id="perimeterValueSpan" class="shape-information-label"></span>
+                    </li>
+
+                </ul>
+
             </div>
 
-            
+
 
         </div>
 

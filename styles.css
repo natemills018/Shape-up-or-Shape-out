@@ -9,6 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
 #inputs {
@@ -35,15 +36,21 @@
     align-items: center; */
 }
 
+.shape-informationLabel {
+    font-weight: 500;
+    font-size: 1rem;
+    color: brown;    
+}
+
 #sidePanel{
     height: 300px;
-    width: 150px;
+    width: 300px;
     background-color: azure;
     position: absolute;
 }
 
 #canvas {
-    position: relative;
+    /* position: relative; */
 }
 
 #squareButton {
@@ -53,7 +60,6 @@
 }
 
 .Shape {
-    margin: 1em;
     position: absolute;
 }
 
@@ -69,4 +75,18 @@
 
 #rectangleinput2 {
     /* margin: 10px; */
+}
+
+#Circle {
+    border-radius: 50%;
+}
+
+#Triangle {
+    width: 0;
+    height: 0;
+    border-bottom-style: solid;
+    border-bottom-right-radius: .125rem;
+    border-right-style: solid;
+    border-right-color: transparent;
+    border-top-left-radius: .125rem;
 }
